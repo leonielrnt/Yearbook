@@ -1,0 +1,27 @@
+{% block main %}
+    <div class="Container">
+      <div class="carrousel">
+        <div class="slider">
+          <section><img src="../images/04_full.jpg" alt="Design"/></section>
+          <section><img src="../images/08_full.jpg" alt="Design"/></section>
+          <section><img src="../images/Brontis-Guilloux-MG.Fahem.jpg" alt="Design"/></section>
+          <section>mon sac est fait</section>
+        </div>
+        <div class = "controls">
+          <span class ="arrow left"><img src="../images/arrowL.svg" alt="Design"/></span>
+          <span class ="arrow right"><img src="../images/arrowR.svg" alt="Design"/></span>
+          <ul>
+          <li class='selected'></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script defer src='{{asset("js/slider.js") }}'></script>
+{% endblock %}

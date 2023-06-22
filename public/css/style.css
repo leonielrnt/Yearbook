@@ -1,0 +1,571 @@
+@font-face {
+  font-family: Helvetica Neue;
+  src: url("../fonts/Helvetica Neue/HelveticaNeue-Medium.otf");
+}
+@font-face {
+  font-family: Helvetica Neue Bold;
+  src: url("../fonts/Helvetica Neue/HelveticaNeue-Bold.otf");
+}
+@font-face {
+  font-family: Helvetica Neue Thin;
+  src: url("../fonts/Helvetica Neue/HelveticaNeue-Thin.otf");
+}
+@font-face {
+  font-family: Memphis LT Pro;
+  src: url("../fonts/memphis-lt-pro-cufonfonts/MemphisLTPro-Medium.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+.logo {
+  margin-top: 28px;
+  margin-bottom: 27px;
+  margin-left: 60px;
+  width: 121px;
+  height: 45px;
+
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.header {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_bar::placeholder {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.search_bar {
+  height: 40px;
+  width: 295px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 86px;
+  border-radius: 15px;
+  border-width: 1px;
+  background-color: #f5f5f5;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  background-image: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: 10px center;
+  padding-left: 40px;
+}
+
+.search {
+  height: 24px;
+  width: 24px;
+}
+
+.right_side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  width: 25px;
+  height: 25px;
+  margin-right: 70px;
+}
+
+/* le plus lu */
+
+.image {
+  width: 100%;
+}
+
+.auteur {
+  font-family: "Memphis LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
+  padding-top: 7vh;
+  padding-bottom: 5vh;
+  /* identical to box height, or 243% */
+}
+
+.lepluslu {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 2vh;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.titre {
+  display: flex;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 2vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  margin-right: 30vw;
+}
+
+.button img {
+  height: auto;
+  width: 9vw;
+}
+
+.underblock {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  background: #f5f5f5;
+}
+
+.background2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3vw;
+  background: #f5f5f5;
+}
+
+.column2 {
+  /* display: flex; */
+  flex-direction: column;
+  align-self: center;
+  width: 85%;
+  height: 80%;
+  background: #f5f5f5;
+}
+
+.underblock {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  background: #f5f5f5;
+}
+
+.texte {
+  display: flex;
+  flex-direction: row;
+  font-family: "Memphis LT Pro";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: justify;
+
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 14vw;
+  margin-top: 7vh;
+  padding-right: 5vw;
+}
+
+.CTA {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  /* left: calc(50% - 200px / 2 + 440px);
+  top: 985px; */
+
+  /* vertlebon */
+
+  background: #61d18a;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 14vh;
+  margin-left: 68vw;
+}
+
+.Dec {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 43px;
+  /* identical to box height, or 180% */
+
+  text-align: justify;
+
+  /* Black 700 */
+
+  color: #141414;
+  justify-content: space-around;
+
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+/* slider */
+
+.news {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Pour aligner les éléments verticalement au centre */
+  justify-content: space-between; /* Pour espacer les éléments horizontalement */
+  height: 126px;
+}
+
+.titre_section {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 28px;
+  margin-left: 45vw;
+  margin-top: 74px;
+}
+
+.bouton {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 7vw;
+  margin-top: 5vw;
+  border-width: 0;
+  background-color: white;
+}
+
+.bouton:hover {
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+}
+
+.arrow {
+  padding-left: 6px;
+  height: 14px;
+  width: 14px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.left_image {
+  width: 380px;
+  height: 550px;
+  margin-left: 0vw;
+  margin-top: 7vw;
+  flex-shrink: 2;
+}
+
+.right_image {
+  width: 380px;
+  height: 550px;
+  margin-left: 6vw;
+  margin-top: 7vw;
+  flex-shrink: 2;
+}
+
+.image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+/* voir pour faire sans position absolute et relative */
+
+.titre_slider {
+  font-family: Helvetica Neue;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 3vw;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.main_image {
+  margin-left: 2vw;
+  margin-top: 4vw;
+  width: 100%;
+  height: auto;
+}
+
+/* etudiant du mois */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  margin-top: 5vw;
+  padding-bottom: vw;
+}
+
+.image_avi {
+  height: auto;
+  width: 50%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.heticien {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  margin-top: 5vw;
+  margin-left: 7vw;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.avidan {
+  font-family: Memphis LT Pro;
+  font-size: 36px;
+  margin-left: 7vw;
+  margin-top: 2vw;
+}
+
+.text {
+  font-family: Memphis LT Pro;
+  font-size: 18px;
+  margin-left: 12vw;
+  margin-top: 2vw;
+  margin-right: 9vw;
+  line-height: 2em;
+}
+
+.bouton_étudiant {
+  margin-left: 7vw;
+  width: 7vw;
+  background-color: #f5f5f5;
+}
+
+/* yearbook */
+
+.yearbook {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 0vw;
+}
+
+.image_yearbook {
+  height: auto;
+  width: 50%;
+}
+
+.yearbook_title {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+
+/* news */
+
+.news_section {
+  background-color: #dff6e8;
+}
+
+.debut_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-top: 5vw;
+  padding-right: 5vw;
+}
+
+.news_titre {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.decouvrir {
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  line-height: 2em;
+  text-decoration: underline;
+}
+
+.decouvrir:hover {
+  cursor: pointer;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.articles img:first-child {
+  height: auto;
+  width: 80%;
+  padding-left: 5vw;
+}
+
+.titre_news {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+
+.description_news {
+  font-family: Memphis LT Pro;
+  font-size: 18px;
+  margin-left: 5vw;
+  width: 60%;
+  margin-top: 2vh;
+}
+
+.timer_news {
+  font-family: Helvetica Neue Thin;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
+
+/* footer */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #141414;
+  padding-bottom: 6vw;
+}
+
+.logo_footer {
+  min-height: 8vh;
+  height: auto;
+  padding-left: 4vw;
+}
+
+.grid-item {
+  margin-top: 5vw;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 4.5vh;
+  padding-left: 1vw;
+  margin-top: 2vw;
+  margin-right: 2vw;
+}
+
+.catégories {
+  color: #61d18a;
+  font-family: Helvetica Neue;
+  font-size: 15px;
+}
+
+.catégories_titre {
+  color: #666666;
+  margin-bottom: 2vw;
+}
+
+.link {
+  margin-bottom: 1.2vw;
+  cursor: pointer;
+}
+
+/* Slider */
+
+.Container {
+  width: 100%;
+  margin: 2% auto;
+}
+.carrousel {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  height: 100%;
+  display: flex;
+  width: 400%;
+  transition: all 0.3s;
+}
+.slider img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls .arrow {
+  position: absolute;
+  top: 80%;
+  cursor: pointer;
+}
+.arrow.left {
+  left: 13vh;
+  margin-top: 3vh;
+}
+.arrow.right {
+  right: 13vh;
+  margin-top: 3vh;
+}
+.controls ul {
+  position: absolute;
+  bottom: 3vh;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10.5vh;
+}
+.controls ul li {
+  width: 2vh;
+  height: 2vh;
+  border: 0.2vh solid black;
+  background-color: white;
+  border-radius: 100%;
+  margin: 2vh;
+  cursor: pointer;
+}
+.controls ul li.selected {
+  background-color: #3c5180;
+}
