@@ -33,5 +33,14 @@ class KingKongController extends AbstractController
             'var_1' => 5+6
         ]);
     }
+
+    #[Route('/asso', name: 'asso')]
+    public function asso(): Response
+    {
+        return $this->render('cookie/asso_page/index.html.twig', [
+            'controller_name' => 'cookieController',
+            'var_1' => 5+6
+        ]);
+    }
 }
 
