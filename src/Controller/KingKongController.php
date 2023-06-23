@@ -51,5 +51,23 @@ class KingKongController extends AbstractController
             'var_1' => 5+6
         ]);
     }
+
+    #[Route('/help', name: 'help')]
+    public function help(): Response
+    {
+        return $this->render('cookie/help_page/index.html.twig', [
+            'controller_name' => 'cookieController',
+            'var_1' => 5+6
+        ]);
+    }
+
+    #[Route('/interview', name: 'interview')]
+    public function interview(): Response
+    {
+        return $this->render('cookie/interview_page/index.html.twig', [
+            'controller_name' => 'cookieController',
+            'var_1' => 5+6
+        ]);
+    }
 }
 
