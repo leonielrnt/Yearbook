@@ -1,10 +1,10 @@
   <body>
-    <div class="container reversed_order">
+    <div class="container {%if reversed_order %} reversed_order {% endif %}">
       <!-- class case permet de contenir un bloc photo sur 
       la gauche et un autre titre sur la droite -->
       <div class="case">
         <img class="image" src="../images/Brontis.png" alt="" />
-        <div class="auteur">Julien Da Silva</div>
+        <div class="auteur">{{ author }}</div>
       </div>
       <!-- class case permet de contenir un bloc titre et description -->
       <div class="case">
@@ -12,6 +12,7 @@
           La veille technologique : l'arme secrète des développeurs à succès !
         </div>
         <p class="textbody">
+         
           Plongez dans le monde en constante mutation de la technologie et
           découvrez pourquoi la veille informatique est un atout indispensable
           pour les développeurs ! Au fil de cet article, nous explorerons

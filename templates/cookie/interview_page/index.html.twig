@@ -9,6 +9,7 @@
         <!-- Events -->
         {% include "cookie/interview_page/news.html.twig" %}
         <!-- Events -->
-        {% include "cookie/interview_page/desc.html.twig" %}
+        {% include "cookie/interview_page/desc.html.twig" with {'reversed_order': false, 'author': 'Julien Da Silva'} %}
+        {% include "cookie/interview_page/desc.html.twig" with {'reversed_order': true,  'author': 'quentin millzrd'} %}
         <!-- Events -->
 {% endblock %}

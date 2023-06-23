@@ -1124,13 +1124,13 @@ img {
   margin-top: 135px;
 }
 
-.CTA:hover {
+.CTA2:hover {
   background-color: #61d18a;
   transition-timing-function: ease-out;
   transition-duration: 750ms;
 }
 
-.CTA:hover > * {
+.CTA2:hover > * {
   color: #fff;
   transition-duration: 600ms;
 }
