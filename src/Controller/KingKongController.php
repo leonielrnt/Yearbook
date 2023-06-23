@@ -42,5 +42,14 @@ class KingKongController extends AbstractController
             'var_1' => 5+6
         ]);
     }
+
+    #[Route('/events', name: 'events')]
+    public function events(): Response
+    {
+        return $this->render('cookie/events_page/index.html.twig', [
+            'controller_name' => 'cookieController',
+            'var_1' => 5+6
+        ]);
+    }
 }
 
