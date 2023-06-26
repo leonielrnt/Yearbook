@@ -70,8 +70,8 @@ class KingKongController extends AbstractController
         ]);
     }
 
-    #[Route('/article', name: 'article')]
-    public function article(): Response
+    #[Route('/articles', name: 'articles')]
+    public function articles(): Response
     {
         return $this->render('cookie/article_page/index.html.twig', [
             'controller_name' => 'cookieController',
