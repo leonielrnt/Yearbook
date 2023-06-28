@@ -1,11 +1,13 @@
-console.log("hello");
+let burgermenu = document.querySelector(".burgermenu");
+let burgermenuClose = document.querySelector(".burgerMenuCloseIcon");
+let burgermenuOpen = document.querySelector(".burgerMenuOpenIcon");
+burgermenuOpen.addEventListener("click", () => displayMenu());
+burgermenuClose.addEventListener("click", () => closeMenu());
 
-function afficherBloc() {
-  var bloc = document.getElementById("bloc");
-  bloc.style.display = "block";
+function displayMenu() {
+  burgermenu.style.display = "block";
 }
 
-function fermerBloc() {
-  var bloc = document.getElementById("bloc");
-  bloc.style.display = "none";
+function closeMenu() {
+  burgermenu.style.display = "none";
 }

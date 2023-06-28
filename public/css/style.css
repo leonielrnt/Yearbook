@@ -79,6 +79,7 @@
   width: 25px;
   height: 25px;
   margin-right: 70px;
+  cursor: pointer;
 }
 
 /* le plus lu */
@@ -1260,12 +1261,15 @@ img {
   margin-left: 68vw;
 }
 
+/* Burger */
+
 .burgermenu {
   position: absolute;
   top: 0;
   right: 0;
   width: 22%;
   height: 72vh;
+  display: none;
   background-color: #191919;
 }
 
@@ -1296,4 +1300,8 @@ img {
   color: white;
   font-size: 20px;
   margin-left: 2vw;
+}
+
+.croix {
+  cursor: pointer;
 }
