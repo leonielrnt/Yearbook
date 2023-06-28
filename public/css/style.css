@@ -400,6 +400,7 @@ button {
 }
 
 .debut_section {
+  background-color: #dff6e8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -420,6 +421,13 @@ button {
   line-height: 2em;
   color: #000;
   text-decoration: underline;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.decouvrir img {
+  margin-left: 0.5vw;
 }
 
 .decouvrir:hover {
@@ -427,6 +435,7 @@ button {
 }
 
 .articles {
+  background-color: #dff6e8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -434,31 +443,41 @@ button {
   padding-bottom: 5vh;
 }
 
-.articles img:first-child {
-  height: auto;
-  width: 80%;
-  padding-left: 5vw;
+.news_1 {
+  height: 70%;
+  padding-left: 5%;
+}
+
+.news_1 img {
+  width: 40vw;
+}
+
+.news_2 {
+  height: 70%;
+  padding-left: 3%;
+}
+
+.news_2 img {
+  width: 40vw;
 }
 
 .titre_news {
   font-family: Helvetica Neue;
   font-weight: bold;
   font-size: 20px;
-  margin-left: 5vw;
   margin-top: 3vh;
 }
 
 .description_news {
   font-family: Memphis LT Pro;
   font-size: 18px;
-  margin-left: 5vw;
-  width: 60%;
   margin-top: 2vh;
+  margin-right: 5vw;
+  width: 40vw;
 }
 
 .timer_news {
   font-family: Helvetica Neue Thin;
-  margin-left: 5vw;
   margin-top: 2vh;
 }
 
@@ -914,13 +933,13 @@ img {
 .categorie {
   margin-top: 4.5vh;
   margin-right: 2vw;
-  padding-top: 0.5vh;
-  font-size: 16px;
-  background-color: #b3e9c7;
+  font-size: 20px;
+  background-color: #61d18a;
   border-radius: 60px;
   text-align: center;
-  width: 80px;
-  height: 30px;
+  width: max-content;
+  padding: 1vh;
+  height: max-content;
   border: 1px black solid;
 }
 
@@ -970,13 +989,13 @@ img {
 }
 
 .postuler {
-  padding: 1vh;
+  padding: 1.5vh;
   font-size: 20px;
   font-weight: 500;
   border-radius: 15px;
   margin-right: 2vw;
   margin-bottom: 2vh;
-  width: 125px;
+  width: max-content;
   height: 50px;
 }
 
@@ -1279,6 +1298,9 @@ img {
   height: 72vh;
   display: none;
   background-color: #191919;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .category_title {
@@ -1582,8 +1604,6 @@ button {
 
 .arrow {
   padding-left: 6px;
-  height: 14px;
-  width: 14px;
 }
 
 .slider {
@@ -1692,4 +1712,10 @@ button {
 .imageproject {
   width: 100%;
   height: 85%;
+}
+
+.Dec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
