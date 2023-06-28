@@ -97,10 +97,10 @@ class KingKongController extends AbstractController
         ]);
     }
 
-    #[Route('/contenu/click', name: 'contenu')]
-    public function contenu_click(): Response
+    #[Route('/project', name: 'project')]
+    public function project(): Response
     {
-        return $this->render('cookie\contenu_click\code\index.html.twig', [
+        return $this->render('cookie/project_page/index.html.twig', [
             'controller_name' => 'cookieController',
             'var_1' => 5+6
         ]);
