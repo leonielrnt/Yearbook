@@ -96,5 +96,14 @@ class KingKongController extends AbstractController
             'var_1' => 5+6
         ]);
     }
+
+    #[Route('/contenu/click', name: 'contenu')]
+    public function contenu_click(): Response
+    {
+        return $this->render('cookie\contenu_click\code\index.html.twig', [
+            'controller_name' => 'cookieController',
+            'var_1' => 5+6
+        ]);
+    }
 }
 
