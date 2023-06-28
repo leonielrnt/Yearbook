@@ -130,6 +130,7 @@
 
 .button {
   margin-right: 30vw;
+  cursor: pointer;
 }
 
 .button img {
@@ -1024,6 +1025,7 @@ img {
   border-radius: 15px;
   border: none;
   background-color: #61d18a;
+  cursor: pointer;
 }
 
 /* Desc Bloc */
@@ -1683,4 +1685,11 @@ button {
 .link {
   margin-bottom: 1.2vw;
   cursor: pointer;
+}
+
+/* Project Page */
+
+.imageproject {
+  width: 100%;
+  height: 85%;
 }
