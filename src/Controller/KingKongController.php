@@ -88,10 +88,10 @@ class KingKongController extends AbstractController
         ]);
     }
 
-    #[Route('/burger', name: 'burger')]
-    public function burger(): Response
+    #[Route('/content', name: 'content')]
+    public function content(): Response
     {
-        return $this->render('cookie/menuburger/index.html.twig', [
+        return $this->render('cookie/content_page/index.html.twig', [
             'controller_name' => 'cookieController',
             'var_1' => 5+6
         ]);
