@@ -79,6 +79,7 @@
   width: 25px;
   height: 25px;
   margin-right: 70px;
+  cursor: pointer;
 }
 
 /* le plus lu */
@@ -417,6 +418,7 @@ button {
   font-family: Helvetica Neue;
   font-size: 24px;
   line-height: 2em;
+  color: #000;
   text-decoration: underline;
 
   display: flex;
@@ -518,9 +520,14 @@ button {
   margin-bottom: 2vw;
 }
 
-.link {
+.linkfooter {
   margin-bottom: 1.2vw;
   cursor: pointer;
+  color: #61d18a;
+  font-family: Helvetica Neue;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Slider */
@@ -1279,12 +1286,15 @@ img {
   margin-left: 68vw;
 }
 
+/* Burger */
+
 .burgermenu {
   position: absolute;
   top: 0;
   right: 0;
   width: 22%;
   height: 72vh;
+  display: none;
   background-color: #191919;
 }
 
@@ -1315,4 +1325,8 @@ img {
   color: white;
   font-size: 20px;
   margin-left: 2vw;
+}
+
+.croix {
+  cursor: pointer;
 }
