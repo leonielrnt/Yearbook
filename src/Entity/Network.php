@@ -48,7 +48,7 @@ class Network
         return $this;
     }
 
-    public __toString()
+    public function __toString()
     {
         return $this->id;
     }

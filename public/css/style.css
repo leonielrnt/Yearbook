@@ -95,7 +95,7 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 36px;
-  padding-top: 7vh;
+  /* padding-top: 7vh; */
   padding-bottom: 5vh;
   /* identical to box height, or 243% */
 }
@@ -131,6 +131,7 @@
 
 .button {
   margin-right: 30vw;
+  cursor: pointer;
 }
 
 .button img {
@@ -395,11 +396,11 @@ button {
 /* news */
 
 .news_section {
-  background-color: #DFF6E8;
+  background-color: #dff6e8;
 }
 
 .debut_section {
-  background-color: #DFF6E8;
+  background-color: #dff6e8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -434,7 +435,7 @@ button {
 }
 
 .articles {
-  background-color: #DFF6E8;
+  background-color: #dff6e8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1043,6 +1044,7 @@ img {
   border-radius: 15px;
   border: none;
   background-color: #61d18a;
+  cursor: pointer;
 }
 
 /* Desc Bloc */
@@ -1296,6 +1298,9 @@ img {
   height: 72vh;
   display: none;
   background-color: #191919;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .category_title {
@@ -1460,7 +1465,8 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 2vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
   margin-left: 20vw;
   margin-right: 15vw;
   line-height: 2em;
@@ -1493,7 +1499,27 @@ img {
   margin-bottom: 2vw;
 }
 
-.quote {
+.quote-wrapper :first-child {
+  margin-top: 1em;
+  margin-left: 5vw;
+}
+
+.quote-wrapper :not(:last-child) {
+  margin-bottom: 0.25em;
+}
+
+.quote-wrapper {
+  font-family: Memphis LT Pro;
+  font-size: 60px;
+  font-weight: 1em;
+}
+
+.quote-wrapper :last-child {
+  margin-left: 15vw;
+  margin-bottom: 1em;
+}
+
+/* .quote {
   font-family: Memphis LT Pro;
   font-size: 60px;
   font-weight: 1em;
@@ -1505,7 +1531,7 @@ img {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 5vw;
-}
+} */
 
 .images {
   margin-top: 5vw;
@@ -1599,8 +1625,6 @@ button {
 
 .arrow {
   padding-left: 6px;
-  height: 14px;
-  width: 14px;
 }
 
 .slider {
@@ -1702,4 +1726,17 @@ button {
 .link {
   margin-bottom: 1.2vw;
   cursor: pointer;
+}
+
+/* Project Page */
+
+.imageproject {
+  width: 100%;
+  height: 85%;
+}
+
+.Dec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
