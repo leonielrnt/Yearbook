@@ -1261,7 +1261,7 @@ img {
 }
 
 .burgermenu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 22%;
@@ -1269,16 +1269,31 @@ img {
   background-color: #191919;
 }
 
-.category {
+.category_title {
   display: flex;
   font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
+  font-size: 15px;
   line-height: 34px;
-  margin-top: 2vh;
-
+  margin-top: 3vh;
+  margin-left: 2vw;
+  margin-right: 3vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.burger_title {
+  color: #b3e9c7;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category_in {
+  font-family: Helvetica Neue;
+  color: white;
+  font-size: 20px;
+  margin-left: 2vw;
 }
