@@ -531,72 +531,6 @@ button {
   display: block;
 }
 
-/* Slider */
-
-.Container {
-  width: 100%;
-  margin: 2% auto;
-}
-.carrousel {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.slider {
-  height: 100%;
-  display: flex;
-  width: 400%;
-  transition: all 0.3s;
-}
-.slider img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-.slider section {
-  flex-basis: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.controls .arrow {
-  position: absolute;
-  top: 80%;
-  cursor: pointer;
-}
-.arrow.left {
-  left: 13vh;
-  margin-top: 3vh;
-}
-.arrow.right {
-  right: 13vh;
-  margin-top: 3vh;
-}
-.controls ul {
-  position: absolute;
-  bottom: 3vh;
-  left: 50%;
-  transform: translate(-50%);
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10.5vh;
-}
-.controls ul li {
-  width: 2vh;
-  height: 2vh;
-  border: 0.2vh solid black;
-  background-color: white;
-  border-radius: 100%;
-  margin: 2vh;
-  cursor: pointer;
-}
-.controls ul li.selected {
-  background-color: #3c5180;
-}
-
 /* Bloc Asso */
 
 html {
@@ -1292,8 +1226,8 @@ img {
 
 .burgermenu {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 2%;
+  right: 2%;
   width: 22%;
   height: 72vh;
   display: none;
@@ -1739,4 +1673,74 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Slider */
+
+/* Slider */
+
+.Container {
+  width: 100%;
+  margin: 2% auto;
+}
+.carrousel {
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  height: 75vh;
+  display: flex;
+  width: 400%;
+  transition: all 0.3s;
+}
+.slider img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.controls .arrow {
+  position: absolute;
+  top: 80%;
+  cursor: pointer;
+}
+.arrow.left {
+  left: 13vh;
+  margin-top: -2vh;
+}
+.arrow.right {
+  right: 13vh;
+  margin-top: -2vh;
+}
+.controls ul {
+  position: absolute;
+  bottom: 3vh;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10.5vh;
+  height: 2vh;
+}
+.controls ul li {
+  width: 2vh;
+  height: 2vh;
+  border: 0.2vh solid black;
+  background-color: white;
+  border-radius: 100%;
+  margin: 2vh;
+  cursor: pointer;
+}
+.controls ul li.selected {
+  background-color: #3c5180;
 }
