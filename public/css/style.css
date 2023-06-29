@@ -956,6 +956,7 @@ img {
 }
 
 .decouvrir_projet {
+  text-decoration: none;
   background-color: rgba(233, 246, 232, 0.7);
   display: flex;
   flex-direction: row;
@@ -963,6 +964,8 @@ img {
 }
 
 .discover {
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-size: 20px;
   text-align: justify;
@@ -974,6 +977,8 @@ img {
 }
 
 .project {
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-size: 20px;
   text-align: center;
