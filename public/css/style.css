@@ -138,7 +138,7 @@
   width: 9vw;
 }
 
-.readingTime {    
+.readingTime {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1266,6 +1266,12 @@ img {
   display: flex;
   margin-top: 14vh;
   margin-left: 68vw;
+}
+
+.backgroundburger {
+  background-color: #000;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* Burger */
