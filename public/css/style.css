@@ -139,6 +139,13 @@
 }
 
 .readingTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+  padding: 10px;
+  min-width: 110px;
   font-family: Helvetica Neue;
   font-size: 14px;
   font-weight: 500;
@@ -146,13 +153,6 @@
   border-radius: 19px;
   margin-right: 6%;
   height: 2vw;
-}
-
-.Time {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .Time div {
@@ -277,6 +277,8 @@
 }
 
 .bouton {
+  text-decoration: none;
+  color: #000;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   margin-right: 7vw;
@@ -295,8 +297,8 @@ button {
 
 .arrow {
   padding-left: 6px;
-  /* height: 14px; */
-  /* width: 14px; */
+  display: flex;
+  align-items: center;
 }
 
 .slider {
@@ -399,6 +401,7 @@ button {
 .bouton_étudiant {
   margin-left: 7vw;
   width: 7vw;
+  text-decoration: underline;
   background-color: #f5f5f5;
 }
 
@@ -1016,6 +1019,7 @@ img {
   font-weight: 500;
   height: 7vh;
   width: 20vw;
+  padding-top: 1.5vh;
   margin-right: 21vh;
   margin-top: 8vh;
   border-radius: 15px;
@@ -1304,6 +1308,7 @@ img {
 }
 
 .category_in {
+  text-decoration: none;
   font-family: Helvetica Neue;
   color: white;
   font-size: 20px;
@@ -1720,49 +1725,56 @@ button {
 
 /* Slider */
 
-/* Slider */
-
-.Container {
+.ContainerSlider {
   width: 100%;
   margin: 2% auto;
 }
+
 .carrousel {
   height: 75vh;
   position: relative;
   overflow: hidden;
 }
+
 .slider {
   height: 75vh;
   display: flex;
   width: 400%;
   transition: all 0.3s;
 }
-.slider img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
+
 .slider section {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 100%;
 }
+
+.slider img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .controls .arrow {
   position: absolute;
   top: 80%;
   cursor: pointer;
 }
+
 .arrow.left {
   left: 13vh;
-  margin-top: -2vh;
+  top: 75%;
 }
+
 .arrow.right {
   right: 13vh;
-  margin-top: -2vh;
+  top: 75%;
 }
+
 .controls ul {
   position: absolute;
   bottom: 3vh;
@@ -1775,6 +1787,7 @@ button {
   margin-bottom: 10.5vh;
   height: 2vh;
 }
+
 .controls ul li {
   width: 2vh;
   height: 2vh;
@@ -1784,6 +1797,7 @@ button {
   margin: 2vh;
   cursor: pointer;
 }
+
 .controls ul li.selected {
   background-color: #3c5180;
 }
