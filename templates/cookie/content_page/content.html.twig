@@ -2,7 +2,8 @@
     <img src="{{ asset('images/08_full 1.png') }}" alt="" class="image">
     <section>
         <div class="auteur">{{ article.user.firstName }} {{ article.user.lastName }}</div>
-        <div class="info">{{ article.title }}</div>
+        <div class="info">
+            <div class="title">{{ article.title }}</div>
             <div class="readingTime">
                     <div>7 minutes</div>
                     <img src="{{ asset('images/timer.svg') }}" alt="timer">
