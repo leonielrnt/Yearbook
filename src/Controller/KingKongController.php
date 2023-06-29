@@ -104,6 +104,6 @@ class KingKongController extends AbstractController
             'controller_name' => 'cookieController',
             'var_1' => 5+6
         ]);
-    }
+    }   
 }
 

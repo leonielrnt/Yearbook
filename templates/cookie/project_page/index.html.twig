@@ -1,17 +1,15 @@
 {% extends 'display.html.twig' %}
 
 {% block main %}
-        {% include "cookie/interview_page/article_le_plus_vu.html.twig" %}
+        {% include "cookie/project_page/article_le_plus_vu.html.twig" %}
         <!-- Events -->
-        {# {% include "cookie/interview_page/burger.html.twig" %}
-        <!-- Events --> #}
-        {% include "cookie/interview_page/filtres.html.twig" %}
+        {% include "cookie/project_page/filtres.html.twig" %}
         <!-- Events -->
-        {% include "cookie/interview_page/slider.html.twig" %}
+        {% include "cookie/project_page/slider.html.twig" %}
         <!-- Events -->
-        {% include "cookie/interview_page/news.html.twig" %}
+        {% include "cookie/project_page/news.html.twig" %}
         <!-- Events -->
-        {% include "cookie/interview_page/desc.html.twig" with {'reversed_order': false, 'author': 'Julien Da Silva'} %}
-        {% include "cookie/interview_page/desc.html.twig" with {'reversed_order': true,  'author': 'Quentin Maillard'} %}
+        {% include "cookie/project_page/desc.html.twig" with {'reversed_order': false, 'author': 'Julien Da Silva'} %}
+        {% include "cookie/project_page/desc.html.twig" with {'reversed_order': true,  'author': 'Quentin Maillard'} %}
         <!-- Events -->
 {% endblock %}

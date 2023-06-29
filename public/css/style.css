@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Helvetica Neue;
   src: url("../fonts/Helvetica Neue/HelveticaNeue-Medium.otf");
@@ -130,6 +131,7 @@
 
 .button {
   margin-right: 30vw;
+  cursor: pointer;
 }
 
 .button img {
@@ -327,7 +329,6 @@ button {
   flex-direction: row;
   background-color: #f5f5f5;
   margin-top: 5vw;
-  padding-bottom: vw;
 }
 
 .image_avi {
@@ -335,7 +336,7 @@ button {
   width: 50%;
 }
 
-.description {
+.descriptionAvi {
   display: flex;
   flex-direction: column;
 }
@@ -1047,6 +1048,7 @@ img {
   border-radius: 15px;
   border: none;
   background-color: #61d18a;
+  cursor: pointer;
 }
 
 /* Desc Bloc */
@@ -1300,6 +1302,9 @@ img {
   height: 72vh;
   display: none;
   background-color: #191919;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .category_title {
@@ -1624,8 +1629,6 @@ button {
 
 .arrow {
   padding-left: 6px;
-  height: 14px;
-  width: 14px;
 }
 
 .slider {
@@ -1727,4 +1730,17 @@ button {
 .link {
   margin-bottom: 1.2vw;
   cursor: pointer;
+}
+
+/* Project Page */
+
+.imageproject {
+  width: 100%;
+  height: 85%;
+}
+
+.Dec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
