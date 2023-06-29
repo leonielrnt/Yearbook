@@ -1,8 +1,8 @@
 {% extends 'display.html.twig' %}
 
 {% block main %}
-        {% include "cookie/content_page/content.html.twig" %}
+        {{ include("cookie/content_page/content.html.twig", {content: article.content}) }}
         <!-- Events -->
         {% include "cookie/content_page/slider.html.twig" %}
         <!-- Events -->
-{% endblock %}
+{% endblock %} a
