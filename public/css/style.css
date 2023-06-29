@@ -138,6 +138,37 @@
   width: 9vw;
 }
 
+.readingTime {    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+  padding: 10px;
+  min-width: 110px;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #61d18a;
+  border-radius: 19px;
+  margin-right: 6%;
+  height: 2vw;
+}
+
+.Time div {
+  padding-right: 1vw;
+  padding-left: 1vw;
+  white-space: nowrap;
+  margin: -1px;
+}
+
+.Time img {
+  width: 30px;
+  margin: auto;
+  padding-right: 1vw;
+  text-align: center;
+}
+
 .underblock {
   align-content: space-between;
   display: flex;
@@ -207,6 +238,7 @@
 }
 
 .Dec {
+  text-decoration: none;
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 500;
@@ -245,6 +277,8 @@
 }
 
 .bouton {
+  text-decoration: none;
+  color: #000;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   margin-right: 7vw;
@@ -461,6 +495,9 @@ button {
 }
 
 .titre_news {
+  display: block;
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-weight: bold;
   font-size: 20px;
@@ -952,6 +989,7 @@ img {
 }
 
 .decouvrir_projet {
+  text-decoration: none;
   background-color: rgba(233, 246, 232, 0.7);
   display: flex;
   flex-direction: row;
@@ -959,6 +997,8 @@ img {
 }
 
 .discover {
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-size: 20px;
   text-align: justify;
@@ -970,6 +1010,8 @@ img {
 }
 
 .project {
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-size: 20px;
   text-align: center;
@@ -1079,6 +1121,7 @@ img {
 }
 
 .CTA2 {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1263,6 +1306,7 @@ img {
 }
 
 .category_in {
+  text-decoration: none;
   font-family: Helvetica Neue;
   color: white;
   font-size: 20px;
@@ -1383,7 +1427,6 @@ img {
   font-family: Helvetica Neue;
   font-weight: bold;
   font-size: 28px;
-  margin-top: 2vw;
   margin-left: 5vw;
 }
 
