@@ -681,6 +681,7 @@ img {
 }
 
 .whiterectangle {
+  text-decoration: none;
   width: 100%;
   height: auto;
   border-radius: 0px 0px 10px 10px;
@@ -700,6 +701,7 @@ img {
 }
 
 .LittleTitle {
+  text-decoration: none;
   margin-top: 1vw;
   margin-left: 1vw;
   color: #000;
@@ -709,6 +711,7 @@ img {
 }
 
 .LittleDescription {
+  text-decoration: none;
   margin-top: 1vw;
   margin-left: 1vw;
   margin-bottom: 1vw;
@@ -720,6 +723,7 @@ img {
 }
 
 .ReadingTime {
+  text-decoration: none;
   margin-top: 1vw;
   margin-left: 1vw;
   margin-bottom: 1vw;

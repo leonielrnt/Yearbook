@@ -6,11 +6,11 @@
         <img class="burgerMenuCloseIcon croix" src="{{ asset('images/croix.svg')}}" alt="Croix"/>
     </div>
     <div class="category">
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/interview">INTERVIEWS</a>
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/project">PROJETS</a>
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/articles">ARTICLES</a>
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/news">NEWS</a>
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/events">EVENTS</a>
+        <a class="category_in" href="{{ path('interview') }}">INTERVIEWS</a>
+        <a class="category_in" href="{{ path('project') }}">PROJETS</a>
+        <a class="category_in" href="{{ path('articles') }}">ARTICLES</a>
+        <a class="category_in" href="{{ path('news') }}">NEWS</a>
+        <a class="category_in" href="{{ path('events') }}">EVENTS</a>
     </div>
 
     
@@ -19,7 +19,7 @@
     </div>
     <div class="category">
         <div class="category_in">HETICIEN DU MOIS</div>
-        <a class="category_in" href="http://localhost/Yearbook/public/index.php/asso">ASSOCIATIONS</a>
+        <a class="category_in" href="{{ path('asso') }}">ASSOCIATIONS</a>
         <div class="category_in">NEWSLETTER</div>
     </div>
     <div class="category_title">
