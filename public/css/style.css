@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: Helvetica Neue;
   src: url("../fonts/Helvetica Neue/HelveticaNeue-Medium.otf");
@@ -208,6 +207,7 @@
 }
 
 .Dec {
+  text-decoration: none;
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 500;
@@ -462,6 +462,9 @@ button {
 }
 
 .titre_news {
+  display: block;
+  text-decoration: none;
+  color: #000;
   font-family: Helvetica Neue;
   font-weight: bold;
   font-size: 20px;
